@@ -1,24 +1,30 @@
 {
-    "name": "ryangjchandler/filament-navigation",
+    "name": "digitonic/filament-navigation",
     "description": "Build structured navigation menus in Filament.",
     "keywords": [
         "ryangjchandler",
+        "digitonic",
         "laravel",
         "filament-navigation"
     ],
-    "homepage": "https://github.com/ryangjchandler/filament-navigation",
+    "homepage": "https://github.com/digitonic/filament-navigation",
     "license": "MIT",
     "authors": [
         {
             "name": "Ryan Chandler",
             "email": "support@ryangjchandler.co.uk",
             "role": "Developer"
+        },
+        {
+            "name": "Steven Richardson",
+            "email": "steven@digitonic.o.uk",
+            "role": "Developer"
         }
     ],
     "require": {
         "php": "^8.1",
         "doctrine/dbal": "^3.5.1",
-        "illuminate/contracts": "^10.0|^11.0",
+        "illuminate/contracts": "^10.0|^11.0|^12.0",
         "filament/filament": "^3.0",
         "spatie/laravel-package-tools": "^1.9.2"
     },
@@ -38,13 +44,13 @@
     },
     "autoload": {
         "psr-4": {
-            "RyanChandler\\FilamentNavigation\\": "src",
-            "RyanChandler\\FilamentNavigation\\Database\\Factories\\": "database/factories"
+            "Digitonic\\FilamentNavigation\\": "src",
+            "Digitonic\\FilamentNavigation\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "RyanChandler\\FilamentNavigation\\Tests\\": "tests"
+            "Digitonic\\FilamentNavigation\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -63,7 +69,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "RyanChandler\\FilamentNavigation\\FilamentNavigationServiceProvider"
+                "Digitonic\\FilamentNavigation\\FilamentNavigationServiceProvider"
             ]
         }
     },

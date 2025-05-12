@@ -1,6 +1,6 @@
 <?php
 
-namespace RyanChandler\FilamentNavigation\Tests;
+namespace Digitonic\FilamentNavigation\Tests;
 
 use BladeUI\Heroicons\BladeHeroiconsServiceProvider;
 use BladeUI\Icons\BladeIconsServiceProvider;
@@ -18,7 +18,7 @@ use Illuminate\Support\Str;
 use Livewire\LivewireServiceProvider;
 use Orchestra\Testbench\TestCase as Orchestra;
 use RyanChandler\BladeCaptureDirective\BladeCaptureDirectiveServiceProvider;
-use RyanChandler\FilamentNavigation\FilamentNavigationServiceProvider;
+use Digitonic\FilamentNavigation\FilamentNavigationServiceProvider;
 
 class TestCase extends Orchestra
 {

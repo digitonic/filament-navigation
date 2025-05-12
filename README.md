@@ -7,12 +7,14 @@
 
 This plugin for Filament provides a `Navigation` resource that lets you build structural navigation menus with a clean drag-and-drop UI.
 
+It is a direct replacement for the `filament-navigation` package by Ryan Chandler, which seems to be no longer maintained.
+
 ## Installation
 
 Begin by installing this package via Composer:
 
 ```sh
-composer require ryangjchandler/filament-navigation
+composer require digitonic/filament-navigation
 ```
 
 Run migrations.
@@ -32,7 +34,7 @@ php artisan filament:assets
 You first need to register the plugin with Filament. This can be done inside of your `PanelProvider`, e.g. `AdminPanelProvider`.
 
 ```php
-use RyanChandler\FilamentNavigation\FilamentNavigation;
+use Digitonic\FilamentNavigation\FilamentNavigation;
 
 return $panel
     ->plugin(FilamentNavigation::make());
@@ -82,10 +84,10 @@ The recursive structure makes it really simple to render nested menus / dropdown
 
 ### Retrieving a navigation object
 
-To retrieve a navigation object, provide the handle to the `RyanChandler\FilamentNavigation\Models\Navigation::fromHandle()` method.
+To retrieve a navigation object, provide the handle to the `Digitonic\FilamentNavigation\Models\Navigation::fromHandle()` method.
 
 ```php
-use RyanChandler\FilamentNavigation\Models\Navigation;
+use Digitonic\FilamentNavigation\Models\Navigation;
 
 $menu = Navigation::fromHandle('main-menu');
 ```
@@ -132,7 +134,7 @@ return $panel
 This plugin also provides a custom Filament field that can be used to search and select a navigation menu inside other forms and resources.
 
 ```php
-use RyanChandler\FilamentNavigation\Filament\Fields\NavigationSelect;
+use Digitonic\FilamentNavigation\Filament\Fields\NavigationSelect;
 
 ->schema([
     NavigationSelect::make('navigation_id'),

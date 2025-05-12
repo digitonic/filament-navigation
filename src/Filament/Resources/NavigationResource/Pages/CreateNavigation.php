@@ -1,10 +1,10 @@
 <?php
 
-namespace RyanChandler\FilamentNavigation\Filament\Resources\NavigationResource\Pages;
+namespace Digitonic\FilamentNavigation\Filament\Resources\NavigationResource\Pages;
 
 use Filament\Resources\Pages\CreateRecord;
-use RyanChandler\FilamentNavigation\Filament\Resources\NavigationResource\Pages\Concerns\HandlesNavigationBuilder;
-use RyanChandler\FilamentNavigation\FilamentNavigation;
+use Digitonic\FilamentNavigation\Filament\Resources\NavigationResource\Pages\Concerns\HandlesNavigationBuilder;
+use Digitonic\FilamentNavigation\FilamentNavigation;
 
 class CreateNavigation extends CreateRecord
 {
