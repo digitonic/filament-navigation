@@ -2,6 +2,8 @@
 
 namespace Digitonic\FilamentNavigation\Filament\Resources;
 
+use Digitonic\FilamentNavigation\FilamentNavigation;
+use Digitonic\FilamentNavigation\Models\Navigation;
 use Filament\Forms\Components\Group;
 use Filament\Forms\Components\Placeholder;
 use Filament\Forms\Components\Section;
@@ -17,8 +19,6 @@ use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Table;
 use Illuminate\Support\HtmlString;
 use Illuminate\Support\Str;
-use Digitonic\FilamentNavigation\FilamentNavigation;
-use Digitonic\FilamentNavigation\Models\Navigation;
 
 class NavigationResource extends Resource
 {

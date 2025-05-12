@@ -3,13 +3,13 @@
 namespace Digitonic\FilamentNavigation;
 
 use Closure;
+use Digitonic\FilamentNavigation\Filament\Resources\NavigationResource;
+use Digitonic\FilamentNavigation\Models\Navigation;
 use Filament\Contracts\Plugin;
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\TextInput;
 use Filament\Panel;
 use Illuminate\Support\Str;
-use Digitonic\FilamentNavigation\Filament\Resources\NavigationResource;
-use Digitonic\FilamentNavigation\Models\Navigation;
 
 class FilamentNavigation implements Plugin
 {

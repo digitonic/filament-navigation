@@ -2,6 +2,7 @@
 
 namespace Digitonic\FilamentNavigation\Filament\Resources\NavigationResource\Pages\Concerns;
 
+use Digitonic\FilamentNavigation\FilamentNavigation;
 use Filament\Actions\Action;
 use Filament\Forms\ComponentContainer;
 use Filament\Forms\Components\Component;
@@ -11,7 +12,6 @@ use Filament\Forms\Components\TextInput;
 use Filament\Forms\Get;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Str;
-use Digitonic\FilamentNavigation\FilamentNavigation;
 
 trait HandlesNavigationBuilder
 {

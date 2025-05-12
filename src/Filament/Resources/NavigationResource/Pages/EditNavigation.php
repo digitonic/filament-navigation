@@ -2,9 +2,9 @@
 
 namespace Digitonic\FilamentNavigation\Filament\Resources\NavigationResource\Pages;
 
-use Filament\Resources\Pages\EditRecord;
 use Digitonic\FilamentNavigation\Filament\Resources\NavigationResource\Pages\Concerns\HandlesNavigationBuilder;
 use Digitonic\FilamentNavigation\FilamentNavigation;
+use Filament\Resources\Pages\EditRecord;
 
 class EditNavigation extends EditRecord
 {
