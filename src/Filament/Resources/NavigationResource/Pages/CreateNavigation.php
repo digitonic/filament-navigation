@@ -2,9 +2,9 @@
 
 namespace Digitonic\FilamentNavigation\Filament\Resources\NavigationResource\Pages;
 
-use Filament\Resources\Pages\CreateRecord;
 use Digitonic\FilamentNavigation\Filament\Resources\NavigationResource\Pages\Concerns\HandlesNavigationBuilder;
 use Digitonic\FilamentNavigation\FilamentNavigation;
+use Filament\Resources\Pages\CreateRecord;
 
 class CreateNavigation extends CreateRecord
 {

@@ -2,8 +2,8 @@
 
 namespace Digitonic\FilamentNavigation\Filament\Fields;
 
-use Filament\Forms\Components\Select;
 use Digitonic\FilamentNavigation\Models\Navigation;
+use Filament\Forms\Components\Select;
 
 class NavigationSelect extends Select
 {

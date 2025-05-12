@@ -1,12 +1,11 @@
 <?php
 
+use Digitonic\FilamentNavigation\Filament\Resources\NavigationResource\Pages\CreateNavigation;
+use Digitonic\FilamentNavigation\Models\Navigation;
 use Livewire\Livewire;
 use Pest\Expectation;
 
 use function Pest\Laravel\assertDatabaseHas;
-
-use Digitonic\FilamentNavigation\Filament\Resources\NavigationResource\Pages\CreateNavigation;
-use Digitonic\FilamentNavigation\Models\Navigation;
 
 it('can create a navigation menu', function () {
     Livewire::test(CreateNavigation::class)

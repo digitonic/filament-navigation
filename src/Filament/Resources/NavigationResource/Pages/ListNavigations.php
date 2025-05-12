@@ -2,9 +2,9 @@
 
 namespace Digitonic\FilamentNavigation\Filament\Resources\NavigationResource\Pages;
 
+use Digitonic\FilamentNavigation\FilamentNavigation;
 use Filament\Actions\CreateAction;
 use Filament\Resources\Pages\ListRecords;
-use Digitonic\FilamentNavigation\FilamentNavigation;
 
 class ListNavigations extends ListRecords
 {

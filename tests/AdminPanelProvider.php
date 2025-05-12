@@ -2,9 +2,9 @@
 
 namespace Digitonic\FilamentNavigation\Tests;
 
+use Digitonic\FilamentNavigation\FilamentNavigation;
 use Filament\Panel;
 use Filament\PanelProvider;
-use Digitonic\FilamentNavigation\FilamentNavigation;
 
 class AdminPanelProvider extends PanelProvider
 {
