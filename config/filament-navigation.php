@@ -1,8 +1,8 @@
 <?php
-// config for RyanChandler/FilamentNavigation
+// config for Digitonic/FilamentNavigation
 return [
 
-    'navigation_model' => \RyanChandler\FilamentNavigation\Models\Navigation::class,
+    'navigation_model' => \Digitonic\FilamentNavigation\Models\Navigation::class,
 
-    'navigation_resource' => \RyanChandler\FilamentNavigation\Filament\Resources\NavigationResource::class,
+    'navigation_resource' => \Digitonic\FilamentNavigation\Filament\Resources\NavigationResource::class,
 ];
