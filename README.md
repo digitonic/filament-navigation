@@ -1,9 +1,9 @@
 # Build structured navigation menus in Filament.
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/ryangjchandler/filament-navigation.svg?style=flat-square)](https://packagist.org/packages/ryangjchandler/filament-navigation)
-[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/ryangjchandler/filament-navigation/run-tests?label=tests)](https://github.com/ryangjchandler/filament-navigation/actions?query=workflow%3Arun-tests+branch%3Amain)
-[![GitHub Code Style Action Status](https://img.shields.io/github/workflow/status/ryangjchandler/filament-navigation/Check%20&%20fix%20styling?label=code%20style)](https://github.com/ryangjchandler/filament-navigation/actions?query=workflow%3A"Check+%26+fix+styling"+branch%3Amain)
-[![Total Downloads](https://img.shields.io/packagist/dt/ryangjchandler/filament-navigation.svg?style=flat-square)](https://packagist.org/packages/ryangjchandler/filament-navigation)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/digitonic/filament-navigation.svg?style=flat-square)](https://packagist.org/packages/digitonic/filament-navigation)
+[![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/digitonic/filament-navigation/run-tests?label=tests)](https://github.com/digitonic/filament-navigation/actions?query=workflow%3Arun-tests+branch%3Amain)
+[![GitHub Code Style Action Status](https://img.shields.io/github/workflow/status/digitonic/filament-navigation/Check%20&%20fix%20styling?label=code%20style)](https://github.com/digitonic/filament-navigation/actions?query=workflow%3A"Check+%26+fix+styling"+branch%3Amain)
+[![Total Downloads](https://img.shields.io/packagist/dt/digitonic/filament-navigation.svg?style=flat-square)](https://packagist.org/packages/digitonic/filament-navigation)
 
 This plugin for Filament provides a `Navigation` resource that lets you build structural navigation menus with a clean drag-and-drop UI.
 
@@ -181,7 +181,7 @@ Please review [our security policy](../../security/policy) on how to report secu
 
 ## Credits
 
-- [Ryan Chandler](https://github.com/ryangjchandler)
+- [Ryan Chandler](https://github.com/digitonic)
 - [All Contributors](../../contributors)
 
 ## License
