@@ -122,7 +122,7 @@ trait HandlesNavigationBuilder
                             return FilamentNavigation::get()->getExtraFields();
                         }),
                 ])
-                ->modalWidth('md')
+                ->modalWidth('2xl')
                 ->action(function (array $data) {
                     if ($this->mountedItem) {
                         data_set($this, $this->mountedItem, array_merge(data_get($this, $this->mountedItem), $data));

@@ -7,8 +7,10 @@ use Digitonic\FilamentNavigation\Filament\Resources\NavigationResource;
 use Digitonic\FilamentNavigation\Models\Navigation;
 use Filament\Contracts\Plugin;
 use Filament\Forms\Components\Select;
+use Filament\Forms\Components\Textarea;
 use Filament\Forms\Components\TextInput;
 use Filament\Panel;
+use Guava\FilamentIconPicker\Forms\IconPicker;
 use Illuminate\Support\Str;
 
 class FilamentNavigation implements Plugin
@@ -113,6 +115,11 @@ class FilamentNavigation implements Plugin
                             ])
                             ->default('')
                             ->selectablePlaceholder(false),
+                        IconPicker::make('icon')
+                            ->label(__('filament-navigation::filament-navigation.attributes.icon')),
+                        Textarea::make('description')
+                            ->label(__('filament-navigation::filament-navigation.attributes.description'))
+                            ->rows(3),
                     ],
                 ],
             ],

@@ -8,6 +8,8 @@ return [
         'name' => 'Name',
         'items' => 'Items',
         'handle' => 'Handle',
+        'icon' => 'Icon',
+        'description' => 'Description',
         'created_at' => 'Created at',
         'updated_at' => 'Updated at',
 
