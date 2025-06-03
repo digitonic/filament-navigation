@@ -2,6 +2,12 @@
 
 All notable changes to `filament-navigation` will be documented in this file.
 
+## 1.1.0 - 2025-06-03
+
+Optional icon and description
+
+**Full Changelog**: https://github.com/digitonic/filament-navigation/compare/1.0.1...1.1.0
+
 ## 1.0.1 - 2025-05-12
 
 **Full Changelog**: https://github.com/digitonic/filament-navigation/compare/1.0.0...1.0.1
@@ -225,6 +231,7 @@ composer update
 php artisan view:clear
 php artisan vendor:publish --tag="filament-navigation-assets"
 php artisan migrate
+
 
 
 
