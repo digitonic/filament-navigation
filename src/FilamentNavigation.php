@@ -10,7 +10,7 @@ use Filament\Forms\Components\Select;
 use Filament\Forms\Components\Textarea;
 use Filament\Forms\Components\TextInput;
 use Filament\Panel;
-use Guava\FilamentIconPicker\Forms\IconPicker;
+use Guava\IconPicker\Forms\Components\IconPicker;
 use Illuminate\Support\Str;
 
 class FilamentNavigation implements Plugin
@@ -77,7 +77,7 @@ class FilamentNavigation implements Plugin
         return new static();
     }
 
-    public static function get(): static
+    public static function get(): Plugin|\Filament\FilamentManager
     {
         return filament('navigation');
     }
