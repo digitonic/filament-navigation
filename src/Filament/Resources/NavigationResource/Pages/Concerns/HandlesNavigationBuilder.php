@@ -12,7 +12,6 @@ use Filament\Schemas\Schema;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Str;
 use Livewire\Component;
-use Livewire\Mechanisms\HandleComponents\ComponentContext;
 
 trait HandlesNavigationBuilder
 {
