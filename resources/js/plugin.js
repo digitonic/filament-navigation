@@ -1,6 +1,6 @@
 import Sortable from 'sortablejs'
 
-document.addEventListener('alpine:initializing', () => {
+document.addEventListener('alpine:init', () => {
     window.Alpine.data('navigationSortableContainer', ({ statePath }) => ({
         statePath,
         sortable: null,

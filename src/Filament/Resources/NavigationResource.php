@@ -13,7 +13,6 @@ use Filament\Resources\Resource;
 use Filament\Schemas\Components\Group;
 use Filament\Schemas\Components\Section;
 use Filament\Schemas\Components\Utilities\Set;
-use Filament\Schemas\Components\View;
 use Filament\Schemas\Schema;
 use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Table;
@@ -71,8 +70,6 @@ class NavigationResource extends Resource
                             ->label(__('filament-navigation::filament-navigation.attributes.handle'))
                             ->required()
                             ->unique(column: 'handle', ignoreRecord: true),
-                        View::make('filament-navigation::card-divider')
-                            ->visible(static::$showTimestamps),
                         TextEntry::make('created_at')
                             ->label(__('filament-navigation::filament-navigation.attributes.created_at'))
                             ->visible(static::$showTimestamps)
