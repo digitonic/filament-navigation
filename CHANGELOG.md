@@ -2,6 +2,18 @@
 
 All notable changes to `filament-navigation` will be documented in this file.
 
+## 2.0.0 - 2025-08-26
+
+### What's Changed
+
+* FNAV-1 Filament 4 upgrade by @SOD96 in https://github.com/digitonic/filament-navigation/pull/1
+
+### New Contributors
+
+* @SOD96 made their first contribution in https://github.com/digitonic/filament-navigation/pull/1
+
+**Full Changelog**: https://github.com/digitonic/filament-navigation/compare/1.1.1...2.0.0
+
 ## 1.1.0 - 2025-06-03
 
 Optional icon and description
@@ -231,6 +243,7 @@ composer update
 php artisan view:clear
 php artisan vendor:publish --tag="filament-navigation-assets"
 php artisan migrate
+
 
 
 
