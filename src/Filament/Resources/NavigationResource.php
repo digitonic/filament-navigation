@@ -71,8 +71,6 @@ class NavigationResource extends Resource
                             ->label(__('filament-navigation::filament-navigation.attributes.handle'))
                             ->required()
                             ->unique(column: 'handle', ignoreRecord: true),
-                        View::make('filament-navigation::card-divider')
-                            ->visible(static::$showTimestamps),
                         TextEntry::make('created_at')
                             ->label(__('filament-navigation::filament-navigation.attributes.created_at'))
                             ->visible(static::$showTimestamps)
