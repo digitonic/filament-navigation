@@ -2,6 +2,14 @@
 
 All notable changes to `filament-navigation` will be documented in this file.
 
+## 2.0.1 - 2025-08-26
+
+### What's Changed
+
+* FNAV-2 breaking form elements by @SOD96 in https://github.com/digitonic/filament-navigation/pull/2
+
+**Full Changelog**: https://github.com/digitonic/filament-navigation/compare/2.0.0...2.0.1
+
 ## 2.0.0 - 2025-08-26
 
 ### What's Changed
@@ -243,6 +251,7 @@ composer update
 php artisan view:clear
 php artisan vendor:publish --tag="filament-navigation-assets"
 php artisan migrate
+
 
 
 
