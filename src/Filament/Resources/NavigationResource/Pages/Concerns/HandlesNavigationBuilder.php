@@ -6,12 +6,12 @@ use Digitonic\FilamentNavigation\FilamentNavigation;
 use Filament\Actions\Action;
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\TextInput;
+use Filament\Schemas\Components\Component;
 use Filament\Schemas\Components\Group;
 use Filament\Schemas\Components\Utilities\Get;
 use Filament\Schemas\Schema;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Str;
-use Filament\Schemas\Components\Component;
 
 trait HandlesNavigationBuilder
 {
