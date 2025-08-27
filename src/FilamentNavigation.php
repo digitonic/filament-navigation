@@ -10,7 +10,6 @@ use Filament\Forms\Components\Select;
 use Filament\Forms\Components\Textarea;
 use Filament\Forms\Components\TextInput;
 use Filament\Panel;
-use Guava\IconPicker\Forms\Components\IconPicker;
 use Illuminate\Support\Str;
 
 class FilamentNavigation implements Plugin
@@ -115,9 +114,6 @@ class FilamentNavigation implements Plugin
                             ])
                             ->default('')
                             ->selectablePlaceholder(false),
-                        IconPicker::make('icon')
-                            ->iconsSearchResults(false)
-                            ->label(__('filament-navigation::filament-navigation.attributes.icon')),
                         Textarea::make('description')
                             ->label(__('filament-navigation::filament-navigation.attributes.description'))
                             ->rows(3),
