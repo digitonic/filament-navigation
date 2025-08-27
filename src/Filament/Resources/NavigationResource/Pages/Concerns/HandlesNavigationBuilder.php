@@ -11,7 +11,7 @@ use Filament\Schemas\Components\Utilities\Get;
 use Filament\Schemas\Schema;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Str;
-use Livewire\Component;
+use Filament\Schemas\Components\Component;
 
 trait HandlesNavigationBuilder
 {
@@ -64,7 +64,7 @@ trait HandlesNavigationBuilder
     {
         $this->mountedItem = null;
         $this->mountedItemData = [];
-        $this->mountedActionData = [];
+        //$this->mountedActionData = [];
 
         $this->mountAction('item');
     }

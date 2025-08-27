@@ -116,6 +116,7 @@ class FilamentNavigation implements Plugin
                             ->default('')
                             ->selectablePlaceholder(false),
                         IconPicker::make('icon')
+                            ->iconsSearchResults(false)
                             ->label(__('filament-navigation::filament-navigation.attributes.icon')),
                         Textarea::make('description')
                             ->label(__('filament-navigation::filament-navigation.attributes.description'))
