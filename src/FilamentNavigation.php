@@ -10,7 +10,6 @@ use Filament\Forms\Components\Select;
 use Filament\Forms\Components\Textarea;
 use Filament\Forms\Components\TextInput;
 use Filament\Panel;
-use Guava\IconPicker\Forms\Components\IconPicker;
 use Illuminate\Support\Str;
 
 class FilamentNavigation implements Plugin
