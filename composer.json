@@ -61,7 +61,7 @@
         ],
         "test-coverage": "vendor/bin/pest coverage",
         "pint": "vendor/bin/pint",
-        "pest": "vendor/bin/pest --order-by=random",
+        "pest": "vendor/bin/pest",
         "pint-test": "vendor/bin/pint --test"
     },
     "config": {
