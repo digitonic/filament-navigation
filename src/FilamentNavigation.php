@@ -6,10 +6,12 @@ use Closure;
 use Digitonic\FilamentNavigation\Filament\Resources\NavigationResource;
 use Digitonic\FilamentNavigation\Models\Navigation;
 use Filament\Contracts\Plugin;
+use Filament\FilamentManager;
 use Filament\Forms\Components\Select;
 use Filament\Forms\Components\Textarea;
 use Filament\Forms\Components\TextInput;
 use Filament\Panel;
+use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Str;
 
 class FilamentNavigation implements Plugin
@@ -35,7 +37,7 @@ class FilamentNavigation implements Plugin
         return $this;
     }
 
-    /** @param class-string<\Illuminate\Database\Eloquent\Model> $model */
+    /** @param class-string<Model> $model */
     public function usingModel(string $model): static
     {
         $this->model = $model;
@@ -76,7 +78,7 @@ class FilamentNavigation implements Plugin
         return new static;
     }
 
-    public static function get(): Plugin|\Filament\FilamentManager
+    public static function get(): Plugin|FilamentManager
     {
         return filament('navigation');
     }

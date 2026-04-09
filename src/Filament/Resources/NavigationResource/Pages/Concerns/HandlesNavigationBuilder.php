@@ -117,7 +117,7 @@ trait HandlesNavigationBuilder
                         }),
                     Group::make()
                         ->statePath('data')
-                        ->visible(fn (\Filament\Schemas\Components\Component $component) => $component->evaluate(FilamentNavigation::get()->getExtraFields()) !== [])
+                        ->visible(fn (Component $component) => $component->evaluate(FilamentNavigation::get()->getExtraFields()) !== [])
                         ->schema(function () {
                             return FilamentNavigation::get()->getExtraFields();
                         }),

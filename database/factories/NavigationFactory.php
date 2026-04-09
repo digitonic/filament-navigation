@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Support\Str;
 
 /**
- * @extends \Illuminate\Database\Eloquent\Factories\Factory<Digitonic\FilamentNavigation\Models\Navigation>
+ * @extends Factory<Digitonic\FilamentNavigation\Models\Navigation>
  */
 class NavigationFactory extends Factory
 {
