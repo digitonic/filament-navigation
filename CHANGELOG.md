@@ -2,6 +2,14 @@
 
 All notable changes to `filament-navigation` will be documented in this file.
 
+## 4.0.0 - 2026-04-09
+
+### What's Changed
+
+* FNAV-6 Upgrade Laravel dependencies by @SOD96 in https://github.com/digitonic/filament-navigation/pull/6
+
+**Full Changelog**: https://github.com/digitonic/filament-navigation/compare/3.0.0...4.0.0
+
 ## 3.0.0 - 2026-02-11
 
 ### What's Changed
@@ -275,6 +283,7 @@ composer update
 php artisan view:clear
 php artisan vendor:publish --tag="filament-navigation-assets"
 php artisan migrate
+
 
 
 
